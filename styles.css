@@ -13,7 +13,7 @@ header, footer {
     height: 5rem;
     margin: 5px;
     width: 50%;
-    background-color: rgb(226, 110, 43);
+    background-color: rgb(240, 161, 59);
 }
 
 .section-caixa {
@@ -25,15 +25,15 @@ header, footer {
     height: 5rem;
     width: 100%;
     margin: 5px;
-    background-color: aquamarine;
+    background-color: rgb(50, 63, 245);
 }
 
 .article {
     height: 10rem;
-    background-color: brown;
+    background-color: rgb(112, 216, 14);
 }
 .caixa2 {
-    background-color: rgb(201, 235, 194);
+    background-color: rgb(219, 219, 219);
     height: 5rem;
     width: 25%;
     margin: 5px;
@@ -81,6 +81,10 @@ header, footer {
     }
 
     .caixa1 {
+        width: 50%;
+    }
+
+    .caixa2 {
         width: 100%;
     }
 }
