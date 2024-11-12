@@ -39,4 +39,26 @@ header, footer {
     margin: 5px;
 }
 
+@media (max-width: 320px) {
+    header {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+
+    article {
+        height: 100px;
+        width: 100%;
+    }
+
+    section-caixa {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .caixa1 {
+        width: 100%;
+    }
+}
 
