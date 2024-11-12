@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header, footer {
+    display: flex;
+}
+
+.caixinha {
+    height: 5rem;
+    margin: 5px;
+    width: 50%;
+    background-color: rgb(226, 110, 43);
+}
+
+.section-caixa {
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa1 {
+    height: 5rem;
+    width: 100%;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+.article {
+    height: 10rem;
+    background-color: brown;
+}
+.caixa2 {
+    background-color: rgb(201, 235, 194);
+    height: 5rem;
+    width: 25%;
+    margin: 5px;
+}
+
+
